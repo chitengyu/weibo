@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e76ed26-c2a4-4cf1-8695-a037cd957ed2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/static_pages/about.blade.php" />
@@ -328,12 +329,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547618406834</updated>
       <workItem from="1547618409310" duration="92000" />
-      <workItem from="1547621177492" duration="717000" />
+      <workItem from="1547621177492" duration="755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="809000" />
+    <option name="totallyTimeSpent" value="847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
