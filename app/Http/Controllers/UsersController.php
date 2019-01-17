@@ -16,4 +16,14 @@ class UsersController extends Controller
     {
         return view('users.show', compact('user'));//将用户数据与视图进行绑定，因此在视图中可以直接使用 $user 来访问用户实例。
     }
+
+    public function store(Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required|max:50',
+            'email' => 'required|email|unique:users|max:255',
+            'password' => 'required|confirmed|min:6'
+        ]);
+        return;
+    }
 }
