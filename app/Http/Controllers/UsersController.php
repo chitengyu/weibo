@@ -34,7 +34,10 @@ class UsersController extends Controller
 
     public function show(User $user)
     {
-        return view('users.show', compact('user'));//将用户数据与视图进行绑定，因此在视图中可以直接使用 $user 来访问用户实例。
+        $statuses = $user->statuses()
+            ->orderBy('created_at', 'desc')
+            ->paginate(10);
+        return view('users.show', compact('user', 'statuses'));
     }
 
     public function store(Request $request)
